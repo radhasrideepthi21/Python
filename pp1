@@ -1,0 +1,28 @@
+# Program to convert weight from kilograms to pounds 
+# Input weight in kilograms kg = float(input("Enter weight in kilograms: ")) 
+# Conversion formula pounds = kg * 2.2 # Display result 
+print(f"{kg} kilograms is equal to {pounds:.2f} pounds.") 
+ 
+# Program to print numbers: 8, 11, 14, ..., 89 for i in range(8, 90, 3): 
+    print(i, end=" ") 
+ 
+# Program to split a string into array of characters text = input("Enter a string: ") # Split into list of characters chars = list(text) 
+print("Array of characters:", chars) 
+ 
+# Sample list (you can also take input from user) numbers = [12, 45, 7, 89, 34, 23] 
+ 
+# Using max() function 
+largest = max(numbers) 
+ 
+print("The largest number in the list is:", largest) 
+ 
+ 
+n = int(input("Enter the number of elements: ")) numbers = [] 
+# Input numbers one by one for i in range(n): 
+    num = int(input(f"Enter number {i+1}: ")) 
+    numbers.append(num) 
+ 
+# Find the largest number manually largest = numbers[0] for num in numbers:     if num > largest:         largest = num 
+ 
+print("The largest number in the list is:", largest) 
+ 
